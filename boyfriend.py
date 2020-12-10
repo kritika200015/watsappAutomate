@@ -6,7 +6,7 @@ client = Client(account_sid, auth_token)
 def send_message():
     message = client.messages.create( 
                               from_='whatsapp:+14155238886',  
-                              body='love yourself ',      
+                              body='Test',      
                               to='whatsapp:+919643882723' 
                           ) 
  
