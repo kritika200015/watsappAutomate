@@ -10,7 +10,7 @@ def looping():
 def send_message():
     message = client.messages.create( 
                               from_='whatsapp:+14155238886',  
-                              body=  looping,  
+                              body=  looping(),  
                               to='whatsapp:+919643882723' 
                           ) 
  
