@@ -9,7 +9,7 @@ for x in messages:
 def send_message():
     message = client.messages.create( 
                               from_='whatsapp:+14155238886',  
-                              body=  print(x),  
+                              body=  x,  
                               to='whatsapp:+919643882723' 
                           ) 
  
